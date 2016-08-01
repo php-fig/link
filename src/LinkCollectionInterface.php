@@ -2,7 +2,7 @@
 namespace Psr\Http\Link;
 
 /**
- *
+ * A link collection object.
  */
 interface LinkCollectionInterface
 {
