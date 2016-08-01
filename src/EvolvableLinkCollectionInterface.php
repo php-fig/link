@@ -12,8 +12,7 @@ interface EvolvableLinkCollectionInterface extends LinkCollectionInterface
      *
      * @param LinkInterface $link
      *   A link object that should be included in this collection.
-     *
-     * @return self
+     * @return static
      */
     public function withLink(LinkInterface $link);
 }

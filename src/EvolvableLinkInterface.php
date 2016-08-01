@@ -22,7 +22,7 @@ interface EvolvableLinkInterface extends LinkInterface
      * An implementing library SHOULD evaluate a passed object to a string
      * immediately rather than waiting for it to be returned later.
      *
-     * @return self
+     * @return static
      */
     public function withHref($href);
 
@@ -31,7 +31,7 @@ interface EvolvableLinkInterface extends LinkInterface
      *
      * @param bool $templated
      *   True if the link object should be templated, False otherwise.
-     * @return self
+     * @return static
      */
     public function withTemplated($templated);
 
@@ -43,7 +43,7 @@ interface EvolvableLinkInterface extends LinkInterface
      *
      * @param string $rel
      *   The relationship value to add.
-     * @return self
+     * @return static
      */
     public function withRel($rel);
 
@@ -55,7 +55,7 @@ interface EvolvableLinkInterface extends LinkInterface
      *
      * @param string $rel
      *   The relationship value to exclude.
-     * @return self
+     * @return static
      */
     public function withoutRel($rel);
 
@@ -66,7 +66,7 @@ interface EvolvableLinkInterface extends LinkInterface
      *   The attribute to include.
      * @param string $value
      *   The value of the attribute to set.
-     * @return self
+     * @return static
      */
     public function withAttribute($attribute, $value);
 }
