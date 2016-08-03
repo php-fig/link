@@ -62,6 +62,9 @@ interface EvolvableLinkInterface extends LinkInterface
     /**
      * Returns an instance with the specified attribute added.
      *
+     * If the specified attribute is already present, it will be overwritten
+     * with the new value.
+     *
      * @param string $attribute
      *   The attribute to include.
      * @param string $value
@@ -69,4 +72,17 @@ interface EvolvableLinkInterface extends LinkInterface
      * @return static
      */
     public function withAttribute($attribute, $value);
+
+
+    /**
+     * Returns an instance with the specified attribute excluded.
+     *
+     * If the specified attribute is not present, this method MUST return
+     * normally without errors.
+     *
+     * @param string $attribute
+     *   The attribute to remove.
+     * @return static
+     */
+    public function withoutAttribute($attribute);
 }
