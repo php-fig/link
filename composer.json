@@ -1,5 +1,5 @@
 {
-    "name": "psr/http-link",
+    "name": "psr/link",
     "description": "Common interfaces for HTTP links",
     "keywords": ["psr", "psr-13", "http", "http-link", "link", "rest"],
     "license": "MIT",
