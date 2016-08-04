@@ -27,15 +27,6 @@ interface EvolvableLinkInterface extends LinkInterface
     public function withHref($href);
 
     /**
-     * Returns an instance with a specified templated value set.
-     *
-     * @param bool $templated
-     *   True if the link object should be templated, False otherwise.
-     * @return static
-     */
-    public function withTemplated($templated);
-
-    /**
      * Returns an instance with the specified relationship included.
      *
      * If the specified rel is already present, this method MUST return
