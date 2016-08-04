@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Psr\\Http\\Link\\": "src/"
+            "Psr\\Link\\": "src/"
         }
     },
     "extra": {

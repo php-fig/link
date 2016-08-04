@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\Http\Link;
+namespace Psr\Link;
 
 /**
  * An evolvable link value object.

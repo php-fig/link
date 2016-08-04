@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\Http\Link;
+namespace Psr\Link;
 
 /**
  * A link collection object.
