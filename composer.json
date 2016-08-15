@@ -1,5 +1,7 @@
 {
     "name": "psr/link",
+    "type": "library",
+    "homepage": "https://github.com/php-fig/link",
     "description": "Common interfaces for HTTP links",
     "keywords": ["psr", "psr-13", "http", "http-link", "link", "rest"],
     "license": "MIT",
