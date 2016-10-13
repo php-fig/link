@@ -3,14 +3,14 @@
 namespace Psr\Link;
 
 /**
- * A link collection object.
+ * A link provider object.
  */
-interface LinkCollectionInterface
+interface LinkProviderInterface
 {
     /**
-     * Returns a collection of LinkInterface objects.
+     * Returns an iterable of LinkInterface objects.
      *
-     * The collection may be an array or any PHP \Traversable object. If no links
+     * The iterable may be an array or any PHP \Traversable object. If no links
      * are available, an empty array or \Traversable MUST be returned.
      *
      * @return LinkInterface[]|\Traversable
@@ -18,9 +18,9 @@ interface LinkCollectionInterface
     public function getLinks();
 
     /**
-     * Returns a collection of LinkInterface objects that have a specific relationship.
+     * Returns an iterable of LinkInterface objects that have a specific relationship.
      *
-     * The collection may be an array or any PHP \Traversable object. If no links
+     * The iterable may be an array or any PHP \Traversable object. If no links
      * with that relationship are available, an empty array or \Traversable MUST be returned.
      *
      * @return LinkInterface[]|\Traversable

@@ -3,9 +3,9 @@
 namespace Psr\Link;
 
 /**
- * An evolvable link collection value object.
+ * An evolvable link provider value object.
  */
-interface EvolvableLinkCollectionInterface extends LinkCollectionInterface
+interface EvolvableLinkProviderInterface extends LinkProviderInterface
 {
     /**
      * Returns an instance with the specified link included.
