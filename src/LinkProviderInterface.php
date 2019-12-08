@@ -13,7 +13,7 @@ interface LinkProviderInterface
      * The iterable may be an array or any PHP \Traversable object. If no links
      * are available, an empty array or \Traversable MUST be returned.
      *
-     * @return iterable[LinkInterface]
+     * @return iterable<LinkInterface>
      */
     public function getLinks(): iterable;
 
@@ -26,7 +26,7 @@ interface LinkProviderInterface
      * @param string $rel
      *   The relationship name for which to retrieve links.
      *
-     * @return iterable[LinkInterface]
+     * @return iterable<LinkInterface>
      */
     public function getLinksByRel(string $rel): iterable;
 }
