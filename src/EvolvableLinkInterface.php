@@ -26,7 +26,7 @@ interface EvolvableLinkInterface extends LinkInterface
      *
      * @return static
      */
-    public function withHref(string|\Stringable $href): self;
+    public function withHref(string|\Stringable $href): static;
 
     /**
      * Returns an instance with the specified relationship included.
@@ -38,7 +38,7 @@ interface EvolvableLinkInterface extends LinkInterface
      *   The relationship value to add.
      * @return static
      */
-    public function withRel(string $rel): self;
+    public function withRel(string $rel): static;
 
     /**
      * Returns an instance with the specified relationship excluded.
@@ -50,7 +50,7 @@ interface EvolvableLinkInterface extends LinkInterface
      *   The relationship value to exclude.
      * @return static
      */
-    public function withoutRel(string $rel): self;
+    public function withoutRel(string $rel): static;
 
     /**
      * Returns an instance with the specified attribute added.
@@ -64,7 +64,7 @@ interface EvolvableLinkInterface extends LinkInterface
      *   The value of the attribute to set.
      * @return static
      */
-    public function withAttribute(string $attribute, string $value): self;
+    public function withAttribute(string $attribute, string $value): static;
 
     /**
      * Returns an instance with the specified attribute excluded.
@@ -76,5 +76,5 @@ interface EvolvableLinkInterface extends LinkInterface
      *   The attribute to remove.
      * @return static
      */
-    public function withoutAttribute(string $attribute): self;
+    public function withoutAttribute(string $attribute): static;
 }
