@@ -10,7 +10,7 @@ interface EvolvableLinkInterface extends LinkInterface
     /**
      * Returns an instance with the specified href.
      *
-     * @param string $href
+     * @param string|\Stringable $href
      *   The href value to include.  It must be one of:
      *     - An absolute URI, as defined by RFC 5988.
      *     - A relative URI, as defined by RFC 5988. The base of the relative link
@@ -24,7 +24,7 @@ interface EvolvableLinkInterface extends LinkInterface
      *
      * @return static
      */
-    public function withHref(string $href);
+    public function withHref(string|\Stringable $href);
 
     /**
      * Returns an instance with the specified relationship included.
