@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file, in reverse 
 
 - **BREAKING** All methods have return types
 
-## [1.1.0](https://github.com/php-fig/link/compare/1.0.1...2.0.0) - 2021-02-04
+## [1.1.0](https://github.com/php-fig/link/compare/1.0.0...1.1.0) - 2021-02-04
 
 ### Changed
 
