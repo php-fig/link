@@ -19,6 +19,9 @@
             "Psr\\Link\\": "src/"
         }
     },
+    "suggest": {
+        "fig/link-util": "Provides some useful PSR-13 utilities"
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "2.0.x-dev"
