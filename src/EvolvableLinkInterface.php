@@ -58,11 +58,11 @@ interface EvolvableLinkInterface extends LinkInterface
      *
      * @param string $attribute
      *   The attribute to include.
-     * @param string $value
+     * @param string|\Stringable|int|float|bool|array $value
      *   The value of the attribute to set.
      * @return static
      */
-    public function withAttribute(string $attribute, string $value);
+    public function withAttribute(string $attribute, string|\Stringable|int|float|bool|array $value);
 
 
     /**
